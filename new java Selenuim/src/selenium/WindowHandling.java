@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WindowHandling {
-
+// thi is not complete project
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver.exe" );
 		WebDriver Driver = new ChromeDriver();
@@ -32,6 +32,7 @@ public class WindowHandling {
 	 Driver.switchTo().window(perentWindowId);
 	 Thread.sleep(2000);
 	 System.out.println("perent window title is "+Driver.getTitle());
+	 
 	 Driver.close();
 	
 	
